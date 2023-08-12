@@ -27,6 +27,7 @@
 		E5B161C02A87F01100BF3C93 /* SideBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
 		E5B161C42A87F01100BF3C93 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		E5B161C62A87F01100BF3C93 /* WeatherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		E5B161CB2A87F0FD00BF3C93 /* -0Projects-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-0Projects-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		E5B161AE2A87EFFB00BF3C93 /* 30Projects */ = {
 			isa = PBXGroup;
 			children = (
+				E5B161CB2A87F0FD00BF3C93 /* -0Projects-Info.plist */,
 				E5B161AF2A87EFFB00BF3C93 /* _0ProjectsApp.swift */,
 				E5B161B12A87EFFB00BF3C93 /* ContentView.swift */,
 				E5B161BD2A87F01100BF3C93 /* Main */,
@@ -334,6 +336,9 @@
 				DEVELOPMENT_TEAM = 2XYGSQSC8C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-0Projects-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to provide current Weather information.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide current Weather information.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -363,6 +368,9 @@
 				DEVELOPMENT_TEAM = 2XYGSQSC8C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-0Projects-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to provide current Weather information.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide current Weather information.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
