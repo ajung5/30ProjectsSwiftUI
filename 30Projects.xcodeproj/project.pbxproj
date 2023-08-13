@@ -10,6 +10,9 @@
 		E526BFF22A892896007754AF /* TaskManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526BFF12A892896007754AF /* TaskManagerApp.swift */; };
 		E526BFF42A8928C2007754AF /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526BFF32A8928C2007754AF /* TaskView.swift */; };
 		E526BFF72A8928F7007754AF /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526BFF62A8928F7007754AF /* TaskRow.swift */; };
+		E526C03A2A8940B0007754AF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526C0392A8940B0007754AF /* Extensions.swift */; };
+		E526C03D2A8940E9007754AF /* RecipeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526C03C2A8940E9007754AF /* RecipeClass.swift */; };
+		E526C0402A89410B007754AF /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526C03F2A89410B007754AF /* RecipeView.swift */; };
 		E5B161B02A87EFFB00BF3C93 /* _0ProjectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B161AF2A87EFFB00BF3C93 /* _0ProjectsApp.swift */; };
 		E5B161B22A87EFFB00BF3C93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B161B12A87EFFB00BF3C93 /* ContentView.swift */; };
 		E5B161B42A87EFFE00BF3C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5B161B32A87EFFE00BF3C93 /* Assets.xcassets */; };
@@ -24,6 +27,9 @@
 		E526BFF12A892896007754AF /* TaskManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerApp.swift; sourceTree = "<group>"; };
 		E526BFF32A8928C2007754AF /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		E526BFF62A8928F7007754AF /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		E526C0392A8940B0007754AF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E526C03C2A8940E9007754AF /* RecipeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeClass.swift; sourceTree = "<group>"; };
+		E526C03F2A89410B007754AF /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 		E5B161AC2A87EFFB00BF3C93 /* 30Projects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 30Projects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B161AF2A87EFFB00BF3C93 /* _0ProjectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0ProjectsApp.swift; sourceTree = "<group>"; };
 		E5B161B12A87EFFB00BF3C93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +95,40 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		E526C01D2A8934B3007754AF /* Project-3 */ = {
+			isa = PBXGroup;
+			children = (
+				E526C01E2A8934C1007754AF /* RecipeApp */,
+			);
+			path = "Project-3";
+			sourceTree = "<group>";
+		};
+		E526C01E2A8934C1007754AF /* RecipeApp */ = {
+			isa = PBXGroup;
+			children = (
+				E526C03E2A894101007754AF /* Views */,
+				E526C03B2A8940C0007754AF /* ViewModel */,
+				E526C0392A8940B0007754AF /* Extensions.swift */,
+			);
+			path = RecipeApp;
+			sourceTree = "<group>";
+		};
+		E526C03B2A8940C0007754AF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E526C03C2A8940E9007754AF /* RecipeClass.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E526C03E2A894101007754AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E526C03F2A89410B007754AF /* RecipeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E5B161A32A87EFFB00BF3C93 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +154,7 @@
 				E5B161BD2A87F01100BF3C93 /* Main */,
 				E5B161C12A87F01100BF3C93 /* Project-1 */,
 				E526BFED2A892823007754AF /* Project-2 */,
+				E526C01D2A8934B3007754AF /* Project-3 */,
 				E5B161B32A87EFFE00BF3C93 /* Assets.xcassets */,
 				E5B161B52A87EFFE00BF3C93 /* Preview Content */,
 			);
@@ -253,7 +294,10 @@
 				E5B161B22A87EFFB00BF3C93 /* ContentView.swift in Sources */,
 				E5B161CA2A87F01100BF3C93 /* WeatherView.swift in Sources */,
 				E5B161C82A87F01100BF3C93 /* SideBar.swift in Sources */,
+				E526C03A2A8940B0007754AF /* Extensions.swift in Sources */,
+				E526C0402A89410B007754AF /* RecipeView.swift in Sources */,
 				E526BFF22A892896007754AF /* TaskManagerApp.swift in Sources */,
+				E526C03D2A8940E9007754AF /* RecipeClass.swift in Sources */,
 				E526BFF72A8928F7007754AF /* TaskRow.swift in Sources */,
 				E5B161B02A87EFFB00BF3C93 /* _0ProjectsApp.swift in Sources */,
 				E526BFF42A8928C2007754AF /* TaskView.swift in Sources */,
