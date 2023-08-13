@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E526BFF22A892896007754AF /* TaskManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526BFF12A892896007754AF /* TaskManagerApp.swift */; };
+		E526BFF42A8928C2007754AF /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526BFF32A8928C2007754AF /* TaskView.swift */; };
+		E526BFF72A8928F7007754AF /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526BFF62A8928F7007754AF /* TaskRow.swift */; };
 		E5B161B02A87EFFB00BF3C93 /* _0ProjectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B161AF2A87EFFB00BF3C93 /* _0ProjectsApp.swift */; };
 		E5B161B22A87EFFB00BF3C93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B161B12A87EFFB00BF3C93 /* ContentView.swift */; };
 		E5B161B42A87EFFE00BF3C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5B161B32A87EFFE00BF3C93 /* Assets.xcassets */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E526BFF12A892896007754AF /* TaskManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerApp.swift; sourceTree = "<group>"; };
+		E526BFF32A8928C2007754AF /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		E526BFF62A8928F7007754AF /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 		E5B161AC2A87EFFB00BF3C93 /* 30Projects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 30Projects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B161AF2A87EFFB00BF3C93 /* _0ProjectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0ProjectsApp.swift; sourceTree = "<group>"; };
 		E5B161B12A87EFFB00BF3C93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +47,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E526BFED2A892823007754AF /* Project-2 */ = {
+			isa = PBXGroup;
+			children = (
+				E526BFEE2A892833007754AF /* TaskManagerApp */,
+			);
+			path = "Project-2";
+			sourceTree = "<group>";
+		};
+		E526BFEE2A892833007754AF /* TaskManagerApp */ = {
+			isa = PBXGroup;
+			children = (
+				E526BFEF2A892857007754AF /* ViewModel */,
+				E526BFF02A89285C007754AF /* Views */,
+				E526BFF52A8928D8007754AF /* Components */,
+			);
+			path = TaskManagerApp;
+			sourceTree = "<group>";
+		};
+		E526BFEF2A892857007754AF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E526BFF12A892896007754AF /* TaskManagerApp.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E526BFF02A89285C007754AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E526BFF32A8928C2007754AF /* TaskView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E526BFF52A8928D8007754AF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E526BFF62A8928F7007754AF /* TaskRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		E5B161A32A87EFFB00BF3C93 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +113,7 @@
 				E5B161B12A87EFFB00BF3C93 /* ContentView.swift */,
 				E5B161BD2A87F01100BF3C93 /* Main */,
 				E5B161C12A87F01100BF3C93 /* Project-1 */,
+				E526BFED2A892823007754AF /* Project-2 */,
 				E5B161B32A87EFFE00BF3C93 /* Assets.xcassets */,
 				E5B161B52A87EFFE00BF3C93 /* Preview Content */,
 			);
@@ -204,7 +253,10 @@
 				E5B161B22A87EFFB00BF3C93 /* ContentView.swift in Sources */,
 				E5B161CA2A87F01100BF3C93 /* WeatherView.swift in Sources */,
 				E5B161C82A87F01100BF3C93 /* SideBar.swift in Sources */,
+				E526BFF22A892896007754AF /* TaskManagerApp.swift in Sources */,
+				E526BFF72A8928F7007754AF /* TaskRow.swift in Sources */,
 				E5B161B02A87EFFB00BF3C93 /* _0ProjectsApp.swift in Sources */,
+				E526BFF42A8928C2007754AF /* TaskView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
